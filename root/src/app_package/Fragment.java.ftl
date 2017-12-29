@@ -22,7 +22,7 @@ public class ${className}Fragment extends Fragment implements ${className}Contra
     }
 
     @Override
-    public View onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState)
         presenter = ${className}Presenter();
         presenter.attachView(this);
